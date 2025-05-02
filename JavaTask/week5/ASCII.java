@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class ASCII {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a character:");
+        char ch = sc.next().charAt(0);
+        int asciiValue = func_tion(ch);
+        System.out.println("The ASCII value of '" + ch + "' is: " + asciiValue);
+    }
+
+    public static int func_tion(char ch) {
+        return (int) ch;
+    }
+}
